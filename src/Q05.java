@@ -36,7 +36,7 @@ class PermanentEmployee extends Employee implements Payable {
 
     @Override
     public void generatePayslip() {
-        System.out.println("=== Permanent Employee Payslip ===");
+        System.out.println("---- Permanent Employee Payslip ----");
         System.out.println("Employee ID: " + empId);
         System.out.println("Name: " + name);
         System.out.printf("Monthly Salary: Rs. %.2f%n", monthlySalary);
@@ -63,7 +63,7 @@ class ContractEmployee extends Employee implements Payable {
 
     @Override
     public void generatePayslip() {
-        System.out.println("=== Contract Employee Payslip ===");
+        System.out.println("---- Contract Employee Payslip ----");
         System.out.println("Employee ID: " + empId);
         System.out.println("Name: " + name);
         System.out.printf("Hourly Rate: Rs. %.2f%n", hourlyRate);
